@@ -25,7 +25,7 @@ HEADERS  += mainUI.h
 FORMS += mainUI.ui
 
 LIBS += -lpoppler-qt5
-INCLUDEPATH+= $${L_INCLUDEDIR}/poppler/qt5
+INCLUDEPATH+= $${L_INCLUDEDIR}/poppler/qt5 /usr/include/poppler/qt5
 
 TRANSLATIONS =  i18n/l-pdf_af.ts \
                 i18n/l-pdf_ar.ts \
